@@ -1,0 +1,25 @@
+{
+  "name": "app-context-hydrus",
+  "version": "0.0.1",
+  "description": "hydrus initializer for app-context",
+  "keywords": [
+    "app-context",
+    "hydrus"
+  ],
+  "homepage": "https://github.com/mattinsler/app-context-hydrus",
+  "bugs": {
+    "url": "https://github.com/mattinsler/app-context-hydrus/issues"
+  },
+  "license": "MIT",
+  "author": "Matt Insler <matt.insler@gmail.com>",
+  "main": "lib/app-context-hydrus",
+  "repository": "mattinsler/app-context-hydrus",
+  "dependencies": {
+    "@mattinsler/es6require": "0.0.3"
+  },
+  "devDependencies": {
+    "babel-cli": "6.14.0",
+    "babel-preset-es2015": "6.14.0",
+    "babel-preset-stage-0": "6.5.0"
+  }
+}
