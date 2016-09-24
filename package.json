@@ -1,6 +1,6 @@
 {
   "name": "app-context-hydrus",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "hydrus initializer for app-context",
   "keywords": [
     "app-context",
@@ -14,6 +14,10 @@
   "author": "Matt Insler <matt.insler@gmail.com>",
   "main": "lib/app-context-hydrus",
   "repository": "mattinsler/app-context-hydrus",
+  "scripts": {
+    "build": "rm -rf lib; babel src -d lib",
+    "prepublish": "npm run build"
+  },
   "dependencies": {
     "@mattinsler/es6require": "0.0.3"
   },
